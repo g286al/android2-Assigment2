@@ -1,0 +1,28 @@
+.expense-time {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #ff4757;
+    background-color: #2f3640;
+    padding: 25px 35px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+    .expense-time:hover {
+        background-color: #353b48;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        transform: translateY(-10px) scale(1.05);
+    }
+
+.expense-time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f5f6fa;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
